@@ -18,5 +18,6 @@ public class checkoutPage {
         public static final Target IFRAME_RECAPTCHA = Target.the("iframe del recaptcha").located(By.cssSelector("iframe[title='reCAPTCHA']"));
         public static final Target CHECK_RECAPTCHA = Target.the("checkbox de recaptcha").located(By.xpath("//*[@id='recaptcha-anchor']/div[1]"));
         public static final Target BOTON_CONTINUAR = Target.the("botón de continuar").located(By.xpath("//*[@id='edit-actions-next']"));
+        public static final Target ALERTA_NUMERO_NO_EXITO = Target.the("Alerta npumeor movil no está en movil exito").located(org.openqa.selenium.By.xpath("//*[@id=\"drupal-modal\"]/div/p"));
 }
 
